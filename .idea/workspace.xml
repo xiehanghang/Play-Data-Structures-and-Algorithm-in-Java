@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6a92a404-e0e6-4364-aa3f-8ad6aa6718b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_02_Sorting_Basic/selectionSort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_02_Sorting_Basic/selectionSort/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort/SortTestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Advance/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Advance/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Advance/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Advance/MergeSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Advance/SortTestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Bottom_Up/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Bottom_Up/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Bottom_Up/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Bottom_Up/MergeSortBU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Bottom_Up/SortTestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/QuickSort2Ways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/QuickSort3Ways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/SortTestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/QuickSort2Ways.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/SortTestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_NearlyOrdered/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_NearlyOrdered/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_NearlyOrdered/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_NearlyOrdered/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_NearlyOrdered/SortTestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/Quick_Sort/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/Quick_Sort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/Quick_Sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/Quick_Sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/Quick_Sort/SortTestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/AVLTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/AVLTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/AVLTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/AVLTree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/AVLTree/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/AVLTree/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/AVLTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/AVLTree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Array/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Array/Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Array/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Array/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Array/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Array/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Hash/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Hash/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Hash/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Hash/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Hash/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Hash/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Hash/HashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Hash/HashCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Hash/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Hash/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Hash/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Hash/RBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Hash/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Hash/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Heap/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Heap/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Heap/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Heap/MaxHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Heap/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Heap/PriorityQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/LinkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/LinkedList/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/LinkedList/LinkedListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/LinkedList/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/LinkedList/LinkedListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/LinkedList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/LinkedList/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Map/AVLMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Map/AVLMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Map/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Map/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Map/BSTMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Map/BSTMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Map/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Map/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Map/LinkListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Map/LinkListMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Map/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Map/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Map/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Map/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Queue/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Queue/ArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Queue/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Queue/LoopQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Queue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Queue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Queue/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Queue/Queue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/RedBlackTree/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/RedBlackTree/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/RedBlackTree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/RedBlackTree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/RedBlackTree/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/RedBlackTree/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/RedBlackTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/RedBlackTree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/RedBlackTree/RBTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/RedBlackTree/RBTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/SegmentTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/SegmentTree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/SegmentTree/Merger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/SegmentTree/Merger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/SegmentTree/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/SegmentTree/SegmentTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Set/AVLSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Set/AVLSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Set/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Set/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Set/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Set/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Set/BSTSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Set/BSTSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Set/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Set/FileOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Set/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Set/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Set/LinkedListSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Set/LinkedListSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Set/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Set/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Set/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Set/Set.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Stack/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Stack/ArrayStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Stack/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Stack/Stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Tree/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Tree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Tree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Trie/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Trie/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/Trie/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/Trie/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/UnionFind/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/UnionFind/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/UnionFind/UF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/UnionFind/UF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/UnionFind/UnionFind1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/UnionFind/UnionFind1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/UnionFind/UnionFind2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/UnionFind/UnionFind2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/UnionFind/UnionFind3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/UnionFind/UnionFind3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/UnionFind/UnionFind4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/UnionFind/UnionFind4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/UnionFind/UnionFind5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/UnionFind/UnionFind5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/UnionFind/UnionFind6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/UnionFind/UnionFind6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/xiehang/recursive/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/datastructures/recursive/Sum.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1563767600">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="28" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="4" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="4" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.29" value="4" />
+          <entry key="project.open.time.30" value="4" />
+          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.34" value="5" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="129" />
+          <entry key="properties" value="1" />
+          <entry key="txt" value="3" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="129" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="9" />
+          <entry key="java" value="7992" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="7992" />
+          <entry key="PLAIN_TEXT" value="9" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/concurrent/locks/Lock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2394">
+              <caret line="159" column="15" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_02_Sorting_Basic/selectionSort/SelectionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1615">
+              <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/AVLTree/AVLTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3135">
+              <caret line="173" column="17" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>max</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/xiehang/AVLTree/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xiehang/RedBlackTree/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/RedBlackTree/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/selectionSort/Student.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/selectionSort/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/selectionSort/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/selectionSort/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/datastructures/Tree/BST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/selectionSort/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/MergeSort_Advance/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/MergeSort_Advance/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Sorting_Basic/Sorting_Advance/MergeSort_Advance/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/Sorting_Advance/MergeSort_Advance/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Advance/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort/SortTestHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Bottom_Up/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort_Bottom_Up/MergeSortBU.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/Quick_Sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/Quick_Sort/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/Quick_Sort/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_NearlyOrdered/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_NearlyOrdered/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/QuickSort3Ways.java" />
+        <option value="$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Solution.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="playwithdatastructure" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="playwithdatastructure" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="playwithdatastructure" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="playwithdatastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playwithdatastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playwithdatastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playwithdatastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playwithdatastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playwithdatastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playwithdatastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playwithdatastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="playwithdatastructure" type="b2602c69:ProjectViewProjectNode" />
+              <item name="playwithdatastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551953162046" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="D:/download/crazyJava3-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coder\IDEA-Workspace\playwithdatastructure\src\main\java\algorithms\_03_Sorting_Advance\QucikSort_Three_Ways" />
+      <recent name="D:\coder\IDEA-Workspace\playwithdatastructure\src\main\java\algorithms\_03_Sorting_Advance\QuickSort_DealWith_Identical_Keys" />
+      <recent name="D:\coder\IDEA-Workspace\playwithdatastructure\src\main\java\algorithms\_03_Sorting_Advance\QuickSort_DealWith_NearlyOrdered" />
+      <recent name="D:\coder\IDEA-Workspace\playwithdatastructure\src\main\java\algorithms\_03_Sorting_Advance" />
+      <recent name="D:\coder\IDEA-Workspace\playwithdatastructure\src\main\java\algorithms\_03_Sorting_Advance\Quick_Sort" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="algorithms.selectionSort" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms._03_Sorting_Advance.Quick_Sort.Main" />
+      <module name="playwithdatastructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms._03_Sorting_Advance.Quick_Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="playwithdatastructure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playwithdatastructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution.PrintMinNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playwithdatastructure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms.selectionSort" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.selectionSort.Solution" />
+      <option name="METHOD_NAME" value="PrintMinNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution.test1 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="playwithdatastructure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Solution.PrintMinNumber" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="JUnit.Solution.test1 (1)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="JUnit.Solution" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.Solution" />
+        <item itemvalue="JUnit.Solution.test1 (1)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a92a404-e0e6-4364-aa3f-8ad6aa6718b4" name="Default Changelist" comment="" />
+      <created>1549193950684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549193950684</updated>
+      <workItem from="1549193953318" duration="6405000" />
+      <workItem from="1549243919648" duration="1750000" />
+      <workItem from="1549356213397" duration="2917000" />
+      <workItem from="1549414850649" duration="2666000" />
+      <workItem from="1549503531143" duration="9727000" />
+      <workItem from="1549596193506" duration="2951000" />
+      <workItem from="1549679076327" duration="18771000" />
+      <workItem from="1549762778834" duration="2062000" />
+      <workItem from="1549845677111" duration="6204000" />
+      <workItem from="1549934356462" duration="8555000" />
+      <workItem from="1550029629871" duration="11919000" />
+      <workItem from="1550102175823" duration="7445000" />
+      <workItem from="1550146904106" duration="2014000" />
+      <workItem from="1550198483111" duration="8481000" />
+      <workItem from="1550277817850" duration="3720000" />
+      <workItem from="1550364274299" duration="14636000" />
+      <workItem from="1550449312381" duration="7614000" />
+      <workItem from="1550479459490" duration="675000" />
+      <workItem from="1550794191241" duration="7030000" />
+      <workItem from="1550888803723" duration="10000" />
+      <workItem from="1550920640193" duration="4034000" />
+      <workItem from="1550969102484" duration="1857000" />
+      <workItem from="1550990756635" duration="5271000" />
+      <workItem from="1551059019623" duration="2732000" />
+      <workItem from="1551083986950" duration="602000" />
+      <workItem from="1551168124281" duration="598000" />
+      <workItem from="1551276795290" duration="3258000" />
+      <workItem from="1551331973462" duration="9197000" />
+      <workItem from="1551400449530" duration="595000" />
+      <workItem from="1551575141362" duration="1693000" />
+      <workItem from="1551614286671" duration="4862000" />
+      <workItem from="1551848673219" duration="599000" />
+      <workItem from="1551946925005" duration="1187000" />
+      <workItem from="1552008759748" duration="931000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Solution_test1_(1) - 2019.02.27 at 22h 45m 07s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.02.27 at 22h 45m 34s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.02.27 at 22h 49m 18s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.02.27 at 22h 49m 28s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.02.27 at 22h 50m 16s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.02.27 at 22h 50m 41s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.02.27 at 22h 51m 35s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.02.27 at 23h 18m 36s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution_test1_(1) - 2019.02.27 at 23h 18m 58s.xml">
+      <configuration name="Solution.test1 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Solution - 2019.02.27 at 23h 19m 11s.xml">
+      <configuration name="Solution" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="162968000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.30764076" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3381089" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39943343" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.28820375" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.9858357" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.39943343" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>res</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.awt.image.RescaleOp</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((HashMap) map).entrySet</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>points[j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>points[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_NearlyOrdered/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/Quick_Sort/SortTestHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_NearlyOrdered/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="14" selection-start-line="13" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/SortTestHelper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QuickSort_DealWith_Identical_Keys/QuickSort2Ways.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/QuickSort2Ways.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/QuickSort3Ways.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/MergeSort/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/SortTestHelper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/QucikSort_Three_Ways/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="585" column="56" lean-forward="true" selection-start-line="585" selection-start-column="56" selection-end-line="585" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/Array/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="190" column="33" selection-start-line="190" selection-start-column="33" selection-end-line="190" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/javafx-src.zip!/javafx/util/Pair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="108" column="48" lean-forward="true" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11286">
+          <caret line="617" column="70" selection-start-line="617" selection-start-column="70" selection-end-line="617" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="270" column="38" selection-start-line="270" selection-start-column="38" selection-end-line="270" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22686">
+          <caret line="1265" column="9" selection-start-line="1265" selection-start-column="9" selection-end-line="1265" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="324" column="32" lean-forward="true" selection-start-line="324" selection-start-column="32" selection-end-line="324" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="940" column="57" lean-forward="true" selection-start-line="940" selection-start-column="57" selection-end-line="940" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="129" column="32" lean-forward="true" selection-start-line="129" selection-start-column="32" selection-end-line="129" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="51" column="79" selection-start-line="51" selection-start-column="79" selection-end-line="51" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="73" column="69" lean-forward="true" selection-start-line="73" selection-start-column="69" selection-end-line="73" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="426" column="4" selection-start-line="426" selection-start-column="4" selection-end-line="426" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2318">
+          <caret line="168" column="53" selection-start-line="168" selection-start-column="53" selection-end-line="168" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="423" column="5" selection-start-line="423" selection-start-column="5" selection-end-line="423" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8284">
+          <caret line="471" column="18" selection-start-line="471" selection-start-column="18" selection-end-line="471" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="125" column="40" selection-start-line="125" selection-start-column="40" selection-end-line="125" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_03_Sorting_Advance/Quick_Sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="597" column="33" selection-start-line="597" selection-start-column="33" selection-end-line="597" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="353" column="72" lean-forward="true" selection-start-line="353" selection-start-column="72" selection-end-line="353" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="118" column="18" lean-forward="true" selection-start-line="118" selection-start-column="18" selection-end-line="118" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="182" column="7" lean-forward="true" selection-start-line="182" selection-start-column="7" selection-end-line="182" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TreeNode.java" />
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="3798" column="46" lean-forward="true" selection-start-line="3798" selection-start-column="46" selection-end-line="3798" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Solution.java" />
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2394">
+          <caret line="159" column="15" selection-start-line="159" selection-start-column="15" selection-end-line="159" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../java8/jdk/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1615">
+          <caret line="119" column="17" selection-start-line="119" selection-start-column="17" selection-end-line="119" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/datastructures/AVLTree/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="173" column="17" selection-start-line="173" selection-start-column="17" selection-end-line="173" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algorithms/_02_Sorting_Basic/selectionSort/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
