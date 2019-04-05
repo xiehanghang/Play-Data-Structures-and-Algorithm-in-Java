@@ -1,3 +1,7 @@
+## 这是我在慕课网学习《玩儿转数据结构》课程的代码，课程非常不错，推荐想学习数据结构的同学可以去学习
+
+<https://coding.imooc.com/class/207.html>
+
 ## 更多语言实现
 
 * Go。传送门：[https://github.com/Donng/Play-with-Data-Structures](https://github.com/Donng/Play-with-Data-Structures)
@@ -10,10 +14,6 @@
 * 大佬 [@kingAnyWHere](https://github.com/kingAnyWHere)基于Canvas实现的堆和任意二分搜索树的可视化。有兴趣的同学可以去大佬的代码仓围观。
     * 堆的可视化：[https://github.com/kingAnyWHere/MaxHeap](https://github.com/kingAnyWHere/MaxHeap)
     * 任意二分搜索树的可视化 ：[https://github.com/kingAnyWHere/canvas-binary-search](https://github.com/kingAnyWHere/canvas-binary-search) 
-    * 以下为截图：）
-
-
-![BST-Visualization](src/demo.png)
 
 
 ## 课程源码目录 
